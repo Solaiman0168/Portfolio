@@ -27,8 +27,6 @@ toggleCategories () {
 
         <CardActions border style={{padding: '20px'}}>
             <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>Live Demo</Button>
         </CardActions>
 
         <CardMenu style={{color: '#ccc'}}>
@@ -47,8 +45,6 @@ toggleCategories () {
 
         <CardActions border style={{padding: '20px'}}>
             <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>Live Demo</Button>
         </CardActions>
 
         <CardMenu style={{color: '#ccc'}}>
@@ -56,26 +52,7 @@ toggleCategories () {
         </CardMenu>
 
       </Card>
-      {/* Project 3 */}
-      <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
-        <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Bootstrap Project #3</CardTitle>
 
-        <CardText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Mauris sagittis pellentesque lacus eleifend lacinia...
-        </CardText>
-
-        <CardActions border style={{padding: '20px'}}>
-            <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>Live Demo</Button>
-        </CardActions>
-
-        <CardMenu style={{color: '#ccc'}}>
-            <IconButton name="share" />
-        </CardMenu>
-
-      </Card>
     </div>
 
 
@@ -97,8 +74,8 @@ toggleCategories () {
 
               <CardActions border style={{padding: '20px'}}>
                   <Button colored>Github</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
+
+
               </CardActions>
 
               <CardMenu style={{color: '#fff'}}>
@@ -117,8 +94,8 @@ toggleCategories () {
 
               <CardActions border style={{padding: '20px'}}>
                   <Button colored>Github</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
+
+
               </CardActions>
 
               <CardMenu style={{color: '#fff'}}>
@@ -126,26 +103,7 @@ toggleCategories () {
               </CardMenu>
 
             </Card>
-            {/* Project 3 */}
-            <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
-              <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #3</CardTitle>
 
-              <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris sagittis pellentesque lacus eleifend lacinia...
-              </CardText>
-
-              <CardActions border style={{padding: '20px'}}>
-                  <Button colored>Github</Button>
-                  <Button colored>CodePen</Button>
-                  <Button colored>Live Demo</Button>
-              </CardActions>
-
-              <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-              </CardMenu>
-
-            </Card>
           </div>
     )
   }
@@ -164,8 +122,7 @@ toggleCategories () {
 
            <CardActions border style={{padding: '20px'}}>
                <Button colored>Github</Button>
-               <Button colored>CodePen</Button>
-               <Button colored>Live Demo</Button>
+
            </CardActions>
 
            <CardMenu style={{color: 'black'}}>
@@ -184,8 +141,7 @@ toggleCategories () {
 
            <CardActions border style={{padding: '20px'}}>
                <Button colored>Github</Button>
-               <Button colored>CodePen</Button>
-               <Button colored>Live Demo</Button>
+
            </CardActions>
 
            <CardMenu style={{color: 'black'}}>
@@ -193,26 +149,7 @@ toggleCategories () {
            </CardMenu>
 
          </Card>
-         {/* Project 3 */}
-         <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
-           <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://www.freepngimg.com/thumb/php/4-2-php-logo-transparent.png) center / cover' }}>PHP Project #3</CardTitle>
 
-           <CardText>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Mauris sagittis pellentesque lacus eleifend lacinia...
-           </CardText>
-
-           <CardActions border style={{padding: '20px'}}>
-               <Button colored>Github</Button>
-               <Button colored>CodePen</Button>
-               <Button colored>Live Demo</Button>
-           </CardActions>
-
-           <CardMenu style={{color: 'black'}}>
-               <IconButton name="share" />
-           </CardMenu>
-
-         </Card>
        </div>
     )
   } else if (this.state.activeTab === 3) {
@@ -230,8 +167,6 @@ toggleCategories () {
 
            <CardActions border style={{padding: '20px'}}>
                <Button colored>Github</Button>
-               <Button colored>CodePen</Button>
-               <Button colored>Live Demo</Button>
            </CardActions>
 
            <CardMenu style={{color: '#ccc'}}>
@@ -239,26 +174,7 @@ toggleCategories () {
            </CardMenu>
 
          </Card>
-         {/* Project 2 */}
-         <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
-           <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://www.juicymedia.co.uk/application/files/6115/1793/2313/Laravel_logo.png) center / cover' }}>Laravel Project #2</CardTitle>
 
-           <CardText>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Mauris sagittis pellentesque lacus eleifend lacinia...
-           </CardText>
-
-           <CardActions border style={{padding: '20px'}}>
-               <Button colored>Github</Button>
-               <Button colored>CodePen</Button>
-               <Button colored>Live Demo</Button>
-           </CardActions>
-
-           <CardMenu style={{color: '#ccc'}}>
-               <IconButton name="share" />
-           </CardMenu>
-
-         </Card>
          {/* Project 3 */}
          <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
            <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://www.juicymedia.co.uk/application/files/6115/1793/2313/Laravel_logo.png) center / cover' }}>Laravel Project #3</CardTitle>
@@ -270,8 +186,6 @@ toggleCategories () {
 
            <CardActions border style={{padding: '20px'}}>
                <Button colored>Github</Button>
-               <Button colored>CodePen</Button>
-               <Button colored>Live Demo</Button>
            </CardActions>
 
            <CardMenu style={{color: '#ccc'}}>
