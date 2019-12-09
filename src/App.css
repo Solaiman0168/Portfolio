@@ -97,6 +97,7 @@
 .avatar-img {
   height: 230px;
   padding-top: 0em;
+  border-radius: 40%;
 }
 
 .banner-text {

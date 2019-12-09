@@ -7,17 +7,17 @@ class Landing extends Component {
       <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src="https://scontent.fdac1-1.fna.fbcdn.net/v/t1.0-9/13102632_880462572064939_1271326224549439508_n.jpg?_nc_cat=104&_nc_eui2=AeGPqCgilAZzKd1yO-DV9lRjTts7FnB5oe0BxyxfI6MlOPY3unMnnkF1gsFS6if_GHLj2zJFnMKUspLkHWaeRzp8YKF6CG-ABF8IUSkCiPw_JtD-JF7Jh2OClGwm3dLxH30&_nc_oc=AQkyn2sRq5jsGjcmMukK-syHA7wCBf65ExMn_Ubf_mJ6eHM4tQYqpJIU9v54P0ae4eQ&_nc_ht=scontent.fdac1-1.fna&oh=a605c5d313bb1cf9d28fabaaea7741b2&oe=5DD299CB"
+            <img src="https://scontent-sin2-1.xx.fbcdn.net/v/t31.0-8/s960x960/18192552_1190356217742238_593717763505231523_o.jpg?_nc_cat=106&_nc_ohc=2YbF7rUMM5UAQnJ8qz6nMSUy9Hzav1188oJ9lgsmzb9cAZZy1QMS38owA&_nc_ht=scontent-sin2-1.xx&oh=13e91a367d72b71cfd7a0469548c0071&oe=5E891CE8"
             alt="avatar"
             className="avatar-img"
             />
 
             <div className="banner-text">
-              <h1> Full Stack Web Developer </h1>
+              <h1> Full Stack Developer </h1>
 
               <hr/>
 
-              <p> HTML/CSS | Bootstrap | Javascript | React | React Native | NodeJS | Express | MongoDB </p>
+              <p> HTML/CSS | Bootstrap | Javascript | React | VueJS | Laravel | MySQL | MongoDB </p>
               <div className="social-links">
                   { /* Linkedin */ }
                   <a href="https://www.linkedin.com/in/solaiman-hossain-536ab9136/"  rel="noopener noreferrer" target="_blank">
