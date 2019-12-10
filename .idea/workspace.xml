@@ -19,6 +19,7 @@
   <component name="ProjectId" id="1Ugi1ohb1Qfjb5QLoBifAWsC8Df" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -49,6 +50,7 @@
       <updated>1575784426599</updated>
       <workItem from="1575784430505" duration="3457000" />
       <workItem from="1575871484214" duration="2634000" />
+      <workItem from="1575957484754" duration="1036000" />
     </task>
     <servers />
   </component>

@@ -90,7 +90,9 @@
   color: white;
 }
 
-
+.about-text{
+    text-align: justify;
+}
 
 /* About ME page */
 
