@@ -25,6 +25,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,6 +52,7 @@
       <workItem from="1575784430505" duration="3457000" />
       <workItem from="1575871484214" duration="2634000" />
       <workItem from="1575957484754" duration="1036000" />
+      <workItem from="1575993535476" duration="7959000" />
     </task>
     <servers />
   </component>
