@@ -20,7 +20,7 @@ class Resume extends Component {
               <h2 style={{paddingTop: '2em'}}>Solaiman Hossain</h2>
               <h4 style={{color: 'grey'}}>Web Developer</h4>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-              <p>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Web Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, React JS, Express JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p>
+              <p>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Web Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
               <h5>Address</h5>
               <p>Merul, D.I.T Project, Badda, Dhaka, Bangladesh</p>
@@ -114,28 +114,28 @@ class Resume extends Component {
                           progress={80}
                           />
                           <Skills
-                            skill="NodeJS"
+                            skill="VueJS"
                             progress={80}
                             />
                             <Skills
-                              skill="ExpressJS"
+                              skill="Ajax"
                               progress={80}
                               />
                               <Skills
-                                skill="MongoDB"
-                                progress={80}
+                                skill="Laravel"
+                                progress={90}
                                 />
                                 <Skills
-                                  skill="Laravel"
+                                  skill="PHP"
                                   progress={90}
                                   />
                                   <Skills
                                     skill="MySQL"
-                                    progress={90}
+                                    progress={100}
                                     />
                                     <Skills
-                                      skill="Python"
-                                      progress={60}
+                                      skill="MongoDB"
+                                      progress={80}
                                       />
 
 
