@@ -34,84 +34,80 @@ class Resume extends Component {
 
           </Cell>
 
-          <Cell className="resume-right-col" col={8}>
+              <Cell className="resume-right-col" col={8}>
 
-            <h2>Education</h2>
+                <h2>Education</h2>
 
-            <Education
-              startYear={2014}
-              endYear={2017}
-              schoolName="Lincoln University, Malaysia"
-              schoolDescription="BSc in Computer Science * CGPA = 3.68"
-               />
+                    <Education
+                        durationTime="2014-2017"
+                      schoolName="Lincoln University, Malaysia"
+                      schoolDescription="BSc in Computer Science * CGPA = 3.68"
+                       />
 
-               <Education
-                 startYear={2010}
-                 endYear={2012}
-                 schoolName="University Laboratory School and College"
-                 schoolDescription="Higher Secondary Certificate * GPA = 4.40"
+                       <Education
+                           durationTime="2010-2012"
+                         schoolName="University Laboratory School and College"
+                         schoolDescription="Higher Secondary Certificate * GPA = 4.40"
+                          />
+
+
+                       <Education
+                           durationTime="2005-2010"
+                         schoolName="Manikganj Govt High School"
+                         schoolDescription="Secondary School Certificate * GPA = 5.00"
+                          />
+
+                    <hr style={{borderTop: '3px solid #e22947'}} />
+
+                  <h2>Experience</h2>
+
+                  <Experience
+                      durationTime="November 2019 - Present"
+                      jobName="Full Stack Developer"
+                      companyName="Combosoft"
+                      jobDescription="
+                    1. Design implement web applications, prototypes, user interfaces, and websites for clients
+                    2. Configure customize and integrate open source software oss for client
+                    3. Maintain and support existing system and websites and realize it is just as important challenging as building new apps
+                    4. Analyze clients need to develop the appropriate functionality, while not overbuilding - Translate
+                     Specifications from analysts graphic designers into working applications
+                    "
                   />
 
-
-               <Education
-                 startYear={2005}
-                 endYear={2010}
-                 schoolName="Manikganj Govt High School"
-                 schoolDescription="Secondary School Certificate * GPA = 5.00"
-                  />
-
-                <hr style={{borderTop: '3px solid #e22947'}} />
-
-              <h2>Experience</h2>
-
-              <Experience
-                startYear={2018}
-                endYear={2019}
-                jobName="Web Developer"
-                companyName="BDSoft IT Solutions"
-                jobDescription="
-                1. Design implement web applications, prototypes, user interfaces, and websites for clients
-                2. Configure customize and integrate open source software oss for client
-                3. Maintain and support existing system and websites and realize it is just as important challenging as building new apps
-                4. Analyze clients need to develop the appropriate functionality, while not overbuilding - Translate
-                 Specifications from analysts graphic designers into working applications
-                5. Provide technical training support to clients when necessary
-                6. Engage in problem definition solution implementation according to client needs
-                7. Convert and integrate data and content for use in databases websites
-                8. Make suggestions that improve programming techniques, applications client deliverables"
-                />
-
-                <Experience
-                  startYear={2017}
-                  endYear={2017}
-                  jobName="Software Developer Intern"
-                  companyName="Zinios Sdn Bhd (Malaysia)"
-                  jobDescription="4 Months of Internship (May 2017 - August 2017)"
-                  />
-                <hr style={{borderTop: '3px solid #e22947'}} />
-
-
-                <h2>Skills</h2>
-
-                  <Skills
-                    skill="HTML/CSS"
-                    progress={100}
+                  <Experience
+                      durationTime="December 2017 - October 2019"
+                    jobName="Web Developer"
+                    companyName="BDSoft IT Solutions"
+                    jobDescription="
+                    1. Design implement web applications, prototypes, user interfaces, and websites for clients
+                    2. Configure customize and integrate open source software oss for client
+                    3. Maintain and support existing system and websites and realize it is just as important challenging as building new apps
+                    4. Analyze clients need to develop the appropriate functionality, while not overbuilding - Translate
+                     Specifications from analysts graphic designers into working applications
+                    5. Provide technical training support to clients when necessary
+                    6. Engage in problem definition solution implementation according to client needs
+                    7. Convert and integrate data and content for use in databases websites
+                    8. Make suggestions that improve programming techniques, applications client deliverables"
                     />
-                    <Skills
-                      skill="Bootstrap"
-                      progress={100}
+
+                    <Experience
+                        durationTime="May 2017 - July 2017"
+                      jobName="Software Developer Intern"
+                      companyName="Zinios Sdn Bhd (Malaysia)"
+                      jobDescription="4 Months of Internship "
                       />
+                    <hr style={{borderTop: '3px solid #e22947'}} />
+
+
+                    <h2>Skills</h2>
+
                       <Skills
-                        skill="javascript"
-                        progress={80}
+                        skill="HTML/CSS"
+                        progress={100}
                         />
                         <Skills
-                          skill="React"
-                          progress={90}
-                          />
-                        <Skills
-                          skill="React Native"
-                          progress={80}
+                          skill="Bootstrap"
+                          progress={100}
                           />
                           <Skills
                             skill="VueJS"
@@ -136,11 +132,46 @@ class Resume extends Component {
                                     <Skills
                                       skill="MongoDB"
                                       progress={80}
-                                      />
+                                      <skills
+                                        skill="javascript"
+                                        progress={80}
+                                        />
+                                        <Skills
+                                          skill="React"
+                                          progress={90}
+                                          />
+                                            <Skills
+                                              skill="React Native"
+                                              progress={80}
+                                              />
+                                              <Skills
+                                                skill="NodeJS"
+                                                progress={80}
+                                                />
+                                                <Skills
+                                                  skill="ExpressJS"
+                                                  progress={80}
+                                                  />
+                                                  <Skills
+                                                    skill="MongoDB"
+                                                    progress={80}
+                                                    />
+                                                    <Skills
+                                                      skill="Laravel"
+                                                      progress={90}
+                                                      />
+                                                      <Skills
+                                                        skill="MySQL"
+                                                        progress={90}
+                                                        />
+                                                        <Skills
+                                                          skill="Python"
+                                                          progress={60}
+                                                          />
 
 
 
-          </Cell>
+              </Cell>
         </Grid>
       </div>
     );

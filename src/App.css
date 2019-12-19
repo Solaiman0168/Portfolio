@@ -73,6 +73,7 @@
   padding: 2em;
 }
 
+
 /* About ME page */
 
 .about-body {
@@ -92,6 +93,7 @@
 
 .about-text{
     text-align: justify;
+    font-size: 18px;
 }
 
 /* About ME page */
