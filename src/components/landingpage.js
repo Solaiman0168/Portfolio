@@ -39,8 +39,6 @@ class Landing extends Component {
                     <i className="fa fa-facebook" aria-hidden="true" />
                   </a>
 
-
-
               </div>
             </div>
           </Cell>
