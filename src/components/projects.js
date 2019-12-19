@@ -26,7 +26,10 @@ toggleCategories () {
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
-            <Button colored>Github</Button>
+            {/*<Button colored>Github</Button>*/}
+            <a href="https://www.linkedin.com/in/solaiman-hossain-536ab9136/"  rel="noopener noreferrer" target="_blank">
+                Github
+            </a>
         </CardActions>
 
         <CardMenu style={{color: '#ccc'}}>
