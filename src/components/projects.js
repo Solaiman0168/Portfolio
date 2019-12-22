@@ -139,13 +139,12 @@ toggleCategories () {
            <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://www.freepngimg.com/thumb/php/4-2-php-logo-transparent.png) center / cover' }}>PHP Project #2</CardTitle>
 
            <CardText>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Mauris sagittis pellentesque lacus eleifend lacinia...
+             Mullick and brother's is a book seller big E-commerce website.
            </CardText>
 
            <CardActions border style={{padding: '20px'}}>
-               <a className="projects-dec" href="https://github.com/Solaiman0168/Portfolio"  rel="noopener noreferrer" target="_blank">
-                   Github
+               <a className="projects-dec" href="https://mullickandbrothers.com/"  rel="noopener noreferrer" target="_blank">
+                  Live
                </a>
            </CardActions>
 
@@ -166,12 +165,11 @@ toggleCategories () {
            <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://www.juicymedia.co.uk/application/files/6115/1793/2313/Laravel_logo.png) center / cover' }}>Laravel Project #1</CardTitle>
 
            <CardText>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Mauris sagittis pellentesque lacus eleifend lacinia...
+             This is an E-commerce website that is used for multipurpose product.
            </CardText>
 
            <CardActions border style={{padding: '20px'}}>
-               <a className="projects-dec" href="https://github.com/Solaiman0168/Portfolio"  rel="noopener noreferrer" target="_blank">
+               <a className="projects-dec" href="https://github.com/Solaiman0168/laravel-ecommerce-application"  rel="noopener noreferrer" target="_blank">
                    Github
                </a>
            </CardActions>
@@ -187,13 +185,12 @@ toggleCategories () {
            <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://www.juicymedia.co.uk/application/files/6115/1793/2313/Laravel_logo.png) center / cover' }}>Laravel Project #3</CardTitle>
 
            <CardText>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Mauris sagittis pellentesque lacus eleifend lacinia...
+             It's a Warehouse Management System web application.
            </CardText>
 
            <CardActions border style={{padding: '20px'}}>
-               <a className="projects-dec" href="https://github.com/Solaiman0168/Portfolio"  rel="noopener noreferrer" target="_blank">
-                   Github
+               <a className="projects-dec" href="http://www.woowms.com/"  rel="noopener noreferrer" target="_blank">
+                  Live
                </a>
            </CardActions>
 
