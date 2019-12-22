@@ -110,20 +110,32 @@ class Resume extends Component {
                           progress={100}
                           />
                           <Skills
+                              skill="Javascript"
+                              progress={90}
+                          />
+                          <Skills
+                              skill="React"
+                              progress={90}
+                          />
+                          <Skills
                             skill="VueJS"
                             progress={80}
                             />
+                          <Skills
+                              skill="Jquery"
+                              progress={90}
+                          />
                             <Skills
                               skill="Ajax"
                               progress={80}
                               />
-                              <Skills
-                                skill="Laravel"
-                                progress={90}
-                                />
                                 <Skills
                                   skill="PHP"
                                   progress={90}
+                                  />
+                                  <Skills
+                                      skill="Laravel"
+                                      progress={90}
                                   />
                                   <Skills
                                     skill="MySQL"
@@ -133,44 +145,6 @@ class Resume extends Component {
                                       skill="MongoDB"
                                       progress={80}
                                       />
-                                    <Skills
-                                        skill="Javascript"
-                                        progress={90}
-                                    />
-                                        <Skills
-                                          skill="React"
-                                          progress={90}
-                                          />
-                                            <Skills
-                                              skill="React Native"
-                                              progress={80}
-                                              />
-                                              <Skills
-                                                skill="NodeJS"
-                                                progress={80}
-                                                />
-                                                <Skills
-                                                  skill="ExpressJS"
-                                                  progress={80}
-                                                  />
-                                                  <Skills
-                                                    skill="MongoDB"
-                                                    progress={80}
-                                                    />
-                                                    <Skills
-                                                      skill="Laravel"
-                                                      progress={90}
-                                                      />
-                                                      <Skills
-                                                        skill="MySQL"
-                                                        progress={90}
-                                                        />
-                                                        <Skills
-                                                          skill="Python"
-                                                          progress={60}
-                                                          />
-
-
 
               </Cell>
         </Grid>
