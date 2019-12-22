@@ -71,14 +71,13 @@ toggleCategories () {
               <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #1</CardTitle>
 
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris sagittis pellentesque lacus eleifend lacinia...
+                  Personal reactjs portfolio in Github
               </CardText>
 
-              <CardActions border style={{padding: '20px'}}>
-                  <Button colored>Github</Button>
-
-
+              <CardActions border style={{padding: '20px',}}>
+                  <a href="https://github.com/Solaiman0168/Portfolio"  rel="noopener noreferrer" target="_blank">
+                      Github
+                  </a>
               </CardActions>
 
               <CardMenu style={{color: '#fff'}}>
@@ -91,14 +90,13 @@ toggleCategories () {
               <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #2</CardTitle>
 
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris sagittis pellentesque lacus eleifend lacinia...
+                Personal reactjs portfolio
               </CardText>
 
               <CardActions border style={{padding: '20px'}}>
-                  <Button colored>Github</Button>
-
-
+                  <a href="https://salloo.000webhostapp.com/"  rel="noopener noreferrer" target="_blank">
+                      Live
+                  </a>
               </CardActions>
 
               <CardMenu style={{color: '#fff'}}>
