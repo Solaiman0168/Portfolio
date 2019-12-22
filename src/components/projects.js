@@ -21,14 +21,13 @@ toggleCategories () {
         <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Bootstrap Project #1</CardTitle>
 
         <CardText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Mauris sagittis pellentesque lacus eleifend lacinia...
+          This is a Kochikantha Bidyaniketon college website that was made by Bootstrap framework.
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
             {/*<Button colored>Github</Button>*/}
-            <a className="projects-dec" href="https://github.com/Solaiman0168/Portfolio"  rel="noopener noreferrer" target="_blank">
-                Github
+            <a className="projects-dec" href="http://www.kochikantha.edu.bd/"  rel="noopener noreferrer" target="_blank">
+                Live
             </a>
         </CardActions>
 
@@ -42,13 +41,12 @@ toggleCategories () {
         <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Bootstrap Project #2</CardTitle>
 
         <CardText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Mauris sagittis pellentesque lacus eleifend lacinia...
+         BDSoft IT solution is a software company, this website made by Bootstrap framework.
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
-            <a className="projects-dec" href="https://github.com/Solaiman0168/Portfolio"  rel="noopener noreferrer" target="_blank">
-                Github
+            <a className="projects-dec" href="http://bdsoft.biz/"  rel="noopener noreferrer" target="_blank">
+                Live
             </a>
         </CardActions>
 
@@ -92,7 +90,7 @@ toggleCategories () {
               <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #2</CardTitle>
 
               <CardText>
-                Personal reactjs portfolio
+               React JS personal portfolio
               </CardText>
 
               <CardActions border style={{padding: '20px'}}>
@@ -119,13 +117,12 @@ toggleCategories () {
            <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://www.freepngimg.com/thumb/php/4-2-php-logo-transparent.png) center / cover' }}>PHP Project #1</CardTitle>
 
            <CardText>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-             Mauris sagittis pellentesque lacus eleifend lacinia...
+               This is a Kochikantha Bidyaniketon college website that was made by Bootstrap framework and PHP server side language with MySQL database.
            </CardText>
 
            <CardActions border style={{padding: '20px'}}>
-               <a className="projects-dec" href="https://github.com/Solaiman0168/Portfolio"  rel="noopener noreferrer" target="_blank">
-                   Github
+               <a className="projects-dec" href="http://www.kochikantha.edu.bd/"  rel="noopener noreferrer" target="_blank">
+                   Live
                </a>
            </CardActions>
 
@@ -140,6 +137,7 @@ toggleCategories () {
 
            <CardText>
              Mullick and brother's is a book seller big E-commerce website.
+               Technical environment: HTML, CSS, Bootstrap, PHP and MySQL
            </CardText>
 
            <CardActions border style={{padding: '20px'}}>
