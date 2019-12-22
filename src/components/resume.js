@@ -18,7 +18,7 @@ class Resume extends Component {
               />
 
               <h2 style={{paddingTop: '2em'}}>Solaiman Hossain</h2>
-              <h4 style={{color: 'grey'}}>Web Developer</h4>
+              <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
               <p>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Web Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>

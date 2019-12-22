@@ -30,15 +30,15 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -58,6 +58,7 @@
       <workItem from="1576699729133" duration="1314000" />
       <workItem from="1576722110150" duration="1549000" />
       <workItem from="1576723946033" duration="595000" />
+      <workItem from="1576983474720" duration="1629000" />
     </task>
     <servers />
   </component>
