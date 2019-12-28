@@ -41,7 +41,7 @@ toggleCategories () {
         <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Bootstrap Project #2</CardTitle>
 
         <CardText>
-         BDSoft IT solution is a software company, this website made by Bootstrap framework.
+            BDSoft IT solution is a software company, this website was made by the Bootstrap framework.
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
@@ -117,7 +117,7 @@ toggleCategories () {
            <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://www.freepngimg.com/thumb/php/4-2-php-logo-transparent.png) center / cover' }}>PHP Project #1</CardTitle>
 
            <CardText>
-               This is a Kochikantha Bidyaniketon college website that was made by Bootstrap framework and PHP server side language with MySQL database.
+               This is a Kochikantha Bidyaniketon college website that was made by the Bootstrap framework and PHP server-side language with MySQL database.
            </CardText>
 
            <CardActions border style={{padding: '20px'}}>
