@@ -1,3 +1,9 @@
+
+/*html, body {*/
+/*  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);*/
+/*}*/
+
+
 .header-color{
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
@@ -149,4 +155,8 @@
 
 .projects-dec{
   text-decoration: none;
+}
+
+.landing-page{
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
