@@ -25,7 +25,7 @@ toggleCategories () {
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
-            {/*<Button colored>Github</Button>*/}
+            <Button colored>Github</Button>
             <a className="projects-dec" href="http://www.kochikantha.edu.bd/"  rel="noopener noreferrer" target="_blank">
                 Live
             </a>
@@ -94,7 +94,7 @@ toggleCategories () {
               </CardText>
 
               <CardActions border style={{padding: '20px'}}>
-                  <a className="projects-dec" href="https://salloo.000webhostapp.com/"  rel="noopener noreferrer" target="_blank">
+                  <a className="projects-dec" href="https://solaimanportfolio.netlify.app/"  rel="noopener noreferrer" target="_blank">
                       Live
                   </a>
               </CardActions>
