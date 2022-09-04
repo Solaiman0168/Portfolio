@@ -10,27 +10,35 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-              <div style={{ textAlign: 'center' }}></div>
-              <img
-              src="https://i.ibb.co/pvGRKC7/SOLAIMAN.jpg"
-              alt="avatar"
-              style={{height: '200px'}}
-              />
+            
+              <div style={{ textAlign: 'center' }}>
+                <img 
+                src="https://i.ibb.co/pvGRKC7/SOLAIMAN.jpg" 
+                alt="avatar"
+                style={{height: 'auto'}}
+                />
+              </div>
+              
 
-              <h2 style={{paddingTop: '2em'}}>Solaiman Hossain</h2>
-              <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-              <p>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Web Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p>
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-              <h5>Address</h5>
-              <p>Merul, D.I.T Project, Badda, Dhaka, Bangladesh</p>
-              <h5>Phone</h5>
-              <p>+8801633912173</p>
-              <h5>Email</h5>
-              <p>solaiman0168@gmail.com</p>
-              <h5>Web</h5>
-              <p>https://solaimanhossain.000webhostapp.com/</p>
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+              <h2 className='text-center'>Solaiman Hossain</h2>
+              {/* <h4 style={{color: 'grey'}}>Full Stack Developer</h4> */}
+              <h4 className='text-center' style={{color: 'grey'}}>Frontend Developer</h4>
+              <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
+              {/* <p>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Frontend Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p> */}
+              <p className='text-center'>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Frontend Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p>
+              <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
+              <div className='text-center'>
+                <h5>Address</h5>
+                <p>Mirpur 12, Dhaka, Bangladesh</p>
+                <h5>Phone</h5>
+                <p>+8801633912173</p>
+                <h5>Email</h5>
+                <p>solaiman0168@gmail.com</p>
+                <h5>Web</h5>
+                <p>https://solaimanportfolio.netlify.app/</p>
+                <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
+              </div>
+          
 
           </Cell>
 
@@ -63,8 +71,9 @@ class Resume extends Component {
 
                   <Experience
                       durationTime="November 2019 - Present"
-                      jobName="Full Stack Developer"
-                      companyName="Combosoft"
+                      // jobName="Full Stack Developer"
+                      jobName="Frontend Developer"
+                      companyName="Combosoft LTD"
                       jobDescription="
                     1. Design implement web applications, prototypes, user interfaces, and websites for clients
                     2. Configure customize and integrate open source software oss for client
@@ -75,7 +84,7 @@ class Resume extends Component {
                   />
 
                   <Experience
-                      durationTime="December 2017 - October 2019"
+                    durationTime="July 2018 - October 2019"
                     jobName="Web Developer"
                     companyName="BDSoft IT Solutions"
                     jobDescription="
@@ -105,9 +114,17 @@ class Resume extends Component {
                         skill="HTML/CSS"
                         progress={100}
                         />
+                         <Skills
+                          skill="SASS"
+                          progress={100}
+                        />
                         <Skills
                           skill="Bootstrap"
                           progress={100}
+                          />
+                          <Skills
+                            skill="Tailwind"
+                            progress={90}
                           />
                           <Skills
                               skill="Javascript"
@@ -115,7 +132,7 @@ class Resume extends Component {
                           />
                           <Skills
                               skill="React"
-                              progress={90}
+                              progress={80}
                           />
                           <Skills
                             skill="VueJS"
@@ -127,9 +144,9 @@ class Resume extends Component {
                           />
                             <Skills
                               skill="Ajax"
-                              progress={80}
+                              progress={90}
                               />
-                                <Skills
+                                {/* <Skills
                                   skill="PHP"
                                   progress={90}
                                   />
@@ -144,7 +161,7 @@ class Resume extends Component {
                                     <Skills
                                       skill="MongoDB"
                                       progress={80}
-                                      />
+                                      /> */}
 
               </Cell>
         </Grid>

@@ -14,7 +14,7 @@ class Contact extends Component {
                       style={{ height: '200px', width: '200px' }}
                     />
                     <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', textAlign: 'justify' }}>
-                      Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Web Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.
+                      Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Frontend Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.
                     </p>
               </Cell>
               <Cell col={6}>

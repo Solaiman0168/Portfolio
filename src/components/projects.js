@@ -113,7 +113,7 @@ toggleCategories () {
       <div className="projects-grid">
 
          {/* Project 1 */}
-         <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
+         {/* <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
            <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://www.freepngimg.com/thumb/php/4-2-php-logo-transparent.png) center / cover' }}>PHP Project #1</CardTitle>
 
            <CardText>
@@ -130,9 +130,9 @@ toggleCategories () {
                <IconButton name="share" />
            </CardMenu>
 
-         </Card>
+         </Card> */}
          {/* Project 2 */}
-         <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
+         {/* <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
            <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://www.freepngimg.com/thumb/php/4-2-php-logo-transparent.png) center / cover' }}>PHP Project #2</CardTitle>
 
            <CardText>
@@ -150,7 +150,7 @@ toggleCategories () {
                <IconButton name="share" />
            </CardMenu>
 
-         </Card>
+         </Card> */}
 
        </div>
     )
@@ -159,7 +159,7 @@ toggleCategories () {
       <div className="projects-grid">
 
          {/* Project 1 */}
-         <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
+         {/* <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
            <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://www.juicymedia.co.uk/application/files/6115/1793/2313/Laravel_logo.png) center / cover' }}>Laravel Project #1</CardTitle>
 
            <CardText>
@@ -176,10 +176,10 @@ toggleCategories () {
                <IconButton name="share" />
            </CardMenu>
 
-         </Card>
+         </Card> */}
 
          {/* Project 3 */}
-         <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
+         {/* <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
            <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://www.juicymedia.co.uk/application/files/6115/1793/2313/Laravel_logo.png) center / cover' }}>Laravel Project #3</CardTitle>
 
            <CardText>
@@ -196,7 +196,7 @@ toggleCategories () {
                <IconButton name="share" />
            </CardMenu>
 
-         </Card>
+         </Card> */}
        </div>
     )
   }
@@ -208,8 +208,8 @@ toggleCategories () {
          <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
             <Tab>Bootstrap</Tab>
             <Tab>React</Tab>
-            <Tab>PHP</Tab>
-            <Tab>Laravel</Tab>
+            {/* <Tab>PHP</Tab>
+            <Tab>Laravel</Tab> */}
         </Tabs>
 
 
