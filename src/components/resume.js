@@ -70,41 +70,35 @@ class Resume extends Component {
                   <h2>Experience</h2>
 
                   <Experience
-                      durationTime="November 2019 - Present"
+                      
                       // jobName="Full Stack Developer"
                       jobName="Frontend Developer"
                       companyName="Combosoft LTD"
+                      durationTime="November 2020 - Present"
                       jobDescription="
-                    1. Design implement web applications, prototypes, user interfaces, and websites for clients
-                    2. Configure customize and integrate open source software oss for client
-                    3. Maintain and support existing system and websites and realize it is just as important challenging as building new apps
+                    1. Design implement web applications, prototypes, user interfaces
+                    2. Engage in problem definition solution implementation according to client needs
+                    3. Maintain and support existing system and realize it is just as important challenging as building new apps
                     4. Analyze clients need to develop the appropriate functionality, while not overbuilding - Translate
                      Specifications from analysts graphic designers into working applications
                     "
                   />
 
                   <Experience
-                    durationTime="July 2018 - October 2019"
-                    jobName="Web Developer"
+                    durationTime="April 2020 - October 2020"
+                    jobName="Frontend Developer"
                     companyName="BDSoft IT Solutions"
                     jobDescription="
-                    1. Design implement web applications, prototypes, user interfaces, and websites for clients
-                    2. Configure customize and integrate open source software oss for client
-                    3. Maintain and support existing system and websites and realize it is just as important challenging as building new apps
-                    4. Analyze clients need to develop the appropriate functionality, while not overbuilding - Translate
-                     Specifications from analysts graphic designers into working applications
-                    5. Provide technical training support to clients when necessary
-                    6. Engage in problem definition solution implementation according to client needs
-                    7. Convert and integrate data and content for use in databases websites
-                    8. Make suggestions that improve programming techniques, applications client deliverables"
+                    1. Design implement for websites
+                    2. Configure customize and integrate open source website for clients"
                     />
 
-                    <Experience
+                    {/* <Experience
                         durationTime="May 2017 - July 2017"
                       jobName="Software Developer Intern"
                       companyName="Zinios Sdn Bhd (Malaysia)"
                       jobDescription="4 Months of Internship "
-                      />
+                      /> */}
                     <hr style={{borderTop: '3px solid #e22947'}} />
 
 

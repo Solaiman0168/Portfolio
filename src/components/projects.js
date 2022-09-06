@@ -17,15 +17,15 @@ toggleCategories () {
 
 
       {/* Project 1 */}
-      <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
+      <Card shadow={5} className="card-content">
         <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Bootstrap Project #1</CardTitle>
 
         <CardText>
-          This is a Kochikantha Bidyaniketon college website that was made by Bootstrap framework.
+          This is a Kochikantha Bidyaniketon college website that was designed by Bootstrap framework.
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
-            <Button colored>Github</Button>
+            {/* <Button colored>Github</Button> */}
             <a className="projects-dec" href="http://www.kochikantha.edu.bd/"  rel="noopener noreferrer" target="_blank">
                 Live
             </a>
@@ -37,11 +37,11 @@ toggleCategories () {
 
       </Card>
       {/* Project 2 */}
-      <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
+      <Card shadow={5} className="card-content">
         <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Bootstrap Project #2</CardTitle>
 
         <CardText>
-            BDSoft IT solution is a software company, this website was made by the Bootstrap framework.
+            BDSoft IT solution is a software company, this website designed by the Bootstrap framework.
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
@@ -67,7 +67,7 @@ toggleCategories () {
          <div className="projects-grid">
 
             {/* Project 1 */}
-            <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
+            <Card shadow={5} className="card-content">
               <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #1</CardTitle>
 
               <CardText>
@@ -86,7 +86,7 @@ toggleCategories () {
 
             </Card>
             {/* Project 2 */}
-            <Card shadow={5} style={{width: '350px', height: '350px', margin: 'auto'}}>
+            <Card shadow={5} className="card-content">
               <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #2</CardTitle>
 
               <CardText>

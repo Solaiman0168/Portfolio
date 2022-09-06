@@ -22,24 +22,24 @@ class Landing extends Component {
               <p> HTML/CSS | Bootstrap | Tailwind | Javascript | React | VueJS  </p>
               <div className="social-links">
                   { /* Linkedin */ }
-                  <a href="https://www.linkedin.com/in/solaiman-hossain-536ab9136/"  rel="noopener noreferrer" target="_blank">
+                  {/* <a href="https://www.linkedin.com/in/solaiman-hossain-536ab9136/"  rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
-                  </a>
+                  </a> */}
 
                   { /* Github */ }
-                  <a href="https://github.com/Solaiman0168"  rel="noopener noreferrer" target="_blank">
+                  {/* <a href="https://github.com/Solaiman0168"  rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-github-square" aria-hidden="true" />
-                  </a>
+                  </a> */}
 
                   { /* Stack-overflow */ }
-                  <a href="https://stackoverflow.com/users/9775390/solaiman-hossain"  rel="noopener noreferrer" target="_blank">
+                  {/* <a href="https://stackoverflow.com/users/9775390/solaiman-hossain"  rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-stack-overflow" aria-hidden="true" />
-                  </a>
+                  </a> */}
 
                   { /* Facebook  */ }
-                  <a href="https://web.facebook.com/solaiman.hossain.16"  rel="noopener noreferrer" target="_blank">
+                  {/* <a href="https://web.facebook.com/solaiman.hossain.16"  rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-facebook" aria-hidden="true" />
-                  </a>
+                  </a> */}
 
               </div>
             </div>
