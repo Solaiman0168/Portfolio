@@ -18,10 +18,11 @@ toggleCategories () {
 
       {/* Project 1 */}
       <Card shadow={5} className="card-content">
-        <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Bootstrap Project #1</CardTitle>
+        <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Project #1</CardTitle>
 
         <CardText>
-          This is a Kochikantha Bidyaniketon college website that was designed by Bootstrap framework.
+          This is a <b>Kochikantha Bidyaniketon college</b> website that was designed by Bootstrap framework.
+          <p className='frontend-tech'><b>Frontend Technology:</b><br/>HTML, CSS, Bootstrap, Javascript, Jquery</p>
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
@@ -38,14 +39,36 @@ toggleCategories () {
       </Card>
       {/* Project 2 */}
       <Card shadow={5} className="card-content">
-        <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Bootstrap Project #2</CardTitle>
+        <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Project #2</CardTitle>
 
         <CardText>
-            BDSoft IT solution is a software company, this website designed by the Bootstrap framework.
+            <b>BDSoft IT solutions</b> is a Web application company, I designed this website by the Bootstrap framework.
+            <p className='frontend-tech'><b>Frontend Technology:</b><br/>HTML, CSS, Bootstrap, Javascript, Jquery</p>
         </CardText>
 
         <CardActions border style={{padding: '20px'}}>
             <a className="projects-dec" href="http://bdsoft.biz/"  rel="noopener noreferrer" target="_blank">
+                Live
+            </a>
+        </CardActions>
+
+        <CardMenu style={{color: '#ccc'}}>
+            <IconButton name="share" />
+        </CardMenu>
+
+      </Card>
+
+      {/* Project 3 */}
+      <Card shadow={5} className="card-content">
+        <CardTitle style={{color: 'black', height: '180px', width: '350px', background: 'url(https://pbs.twimg.com/media/Dp0YXRhW4AAASaW.png) center / cover' }}>Project #3</CardTitle>
+
+        <CardText>
+            <b>Warehouse Management System</b> is a Inventory Software, this software has integrated to many E-commerce market place. We have integrated WooCommerce, OnBuy, eBay, Amazon, Shopify, Royal Mail and DPD. This inventory software full admin panel frontend part I have designed it by Bootstrap, few places Vue JS, Javascript, jQuery.
+            <p className='frontend-tech'><b>Frontend Technology:</b><br/>HTML, CSS, Bootstrap, Javascript, Jquery, Vue js</p>
+        </CardText>
+
+        <CardActions border style={{padding: '20px'}}>
+            <a className="projects-dec" href="https://wms360.co.uk/"  rel="noopener noreferrer" target="_blank">
                 Live
             </a>
         </CardActions>

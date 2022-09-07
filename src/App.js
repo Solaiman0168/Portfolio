@@ -33,7 +33,7 @@ function App() {
           />
         </svg>
       </button>
-            <Navigation className={isNavExpanded ? "mbl-navigation" : "mdl-navigation"}>
+            <Navigation  className={isNavExpanded ? "mbl-navigation" : "mdl-navigation"}>
                 <Link to="/resume"><b>RESUME</b></Link>
                 <Link to="/aboutme"><b>ABOUT ME</b></Link>
                 <Link to="/projects"><b>PROJECTS</b></Link>
