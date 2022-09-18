@@ -22,10 +22,10 @@ class Resume extends Component {
 
               <h2 className='text-center'>Solaiman Hossain</h2>
               {/* <h4 style={{color: 'grey'}}>Full Stack Developer</h4> */}
-              <h4 className='text-center' style={{color: 'grey'}}>Frontend Developer</h4>
+              <h4 className='text-center' style={{color: 'grey'}}>Software Engineer</h4>
               <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
               {/* <p>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Frontend Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p> */}
-              <p className='text-center'>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Frontend Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p>
+              <p className='text-center'>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Software Engineer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Zurb Foundation, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, PHP(LARAVEL Framwork) and ability to effectively design, maintain and manage enterprise level solutions.</p>
               <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
               <div className='text-center'>
                 <h5>Address</h5>
@@ -47,7 +47,7 @@ class Resume extends Component {
                 <h2>Education</h2>
 
                     <Education
-                        durationTime="2014-2017"
+                        durationTime="2014-2018"
                       schoolName="Lincoln University, Malaysia"
                       schoolDescription="BSc in Computer Science * CGPA = 3.68"
                        />
@@ -72,25 +72,41 @@ class Resume extends Component {
                   <Experience
                       
                       // jobName="Full Stack Developer"
-                      jobName="Frontend Developer"
-                      companyName="Combosoft LTD"
-                      durationTime="November 2020 - Present"
-                      jobDescription="
-                    1. Design implement web applications, prototypes, user interfaces
-                    2. Engage in problem definition solution implementation according to client needs
-                    3. Maintain and support existing system and realize it is just as important challenging as building new apps
-                    4. Analyze clients need to develop the appropriate functionality, while not overbuilding - Translate
-                     Specifications from analysts graphic designers into working applications
+                      jobName="Software Engineer"
+                      companyName="Combosoft Ltd"
+                      durationTime="March 2020 - Present"
+                      areaOfExpertise="Area of expertise:"
+                      areaOfExpertiseDescription="HTML, CSS, SASS, Bootstrap, Zurb Foundation, Javascript, jQuery, Ajax, Vue Js, Laravel framework"
+                      projects="Projects:"
+                      projectsDescription="Warehouse Management System (Running), Warehouse Management System Website demo, eBay Templates, Email Templates."
+                      dutiesResponsibilities="Duties/Responsibilities:"
+                    //   jobDescription="
+                    // 1. Design implement web applications, prototypes, user interfaces
+                    // 2. Engage in problem definition solution implementation according to client needs
+                    // 3. Maintain and support existing system and realize it is just as important challenging as building new apps
+                    // 4. Analyze clients need to develop the appropriate functionality, while not overbuilding - Translate
+                    //  Specifications from analysts graphic designers into working applications
+                    // "
+                    jobDescription="
+                      1.	Frontend Design & Customization
+                      2.	Backend
+                      3.	RESTful API development 
                     "
                   />
 
                   <Experience
-                    durationTime="April 2020 - October 2020"
-                    jobName="Frontend Developer"
+                    durationTime="September 2019 – February 2020"
+                    jobName="Web Developer"
                     companyName="BDSoft IT Solutions"
+                    areaOfExpertise="Area of expertise:"
+                    areaOfExpertiseDescription="HTML, CSS, Bootstrap, Javascript, jQuery, PHP"
+                    projects="Projects:"
+                    projectsDescription="Kochikantha Bidyaniketon and College, Edu care."
+                    dutiesResponsibilities="Duties/Responsibilities:"
                     jobDescription="
                     1. Design implement for websites
-                    2. Configure customize and integrate open source website for clients"
+                    2. Configure customize and integrate open source website for clients
+                    3. Backend "
                     />
 
                     {/* <Experience
@@ -110,12 +126,16 @@ class Resume extends Component {
                         />
                          <Skills
                           skill="SASS"
-                          progress={100}
+                          progress={90}
                         />
                         <Skills
                           skill="Bootstrap"
                           progress={100}
                           />
+                          <Skills
+                            skill="Zurb Foundation"
+                            progress={90}
+                            />
                           <Skills
                             skill="Tailwind"
                             progress={90}
@@ -125,7 +145,7 @@ class Resume extends Component {
                               progress={90}
                           />
                           <Skills
-                              skill="React"
+                              skill="ReactJS"
                               progress={80}
                           />
                           <Skills
@@ -143,16 +163,16 @@ class Resume extends Component {
                                 {/* <Skills
                                   skill="PHP"
                                   progress={90}
-                                  />
+                                  /> */}
                                   <Skills
                                       skill="Laravel"
                                       progress={90}
                                   />
                                   <Skills
                                     skill="MySQL"
-                                    progress={100}
+                                    progress={90}
                                     />
-                                    <Skills
+                                    {/* <Skills
                                       skill="MongoDB"
                                       progress={80}
                                       /> */}

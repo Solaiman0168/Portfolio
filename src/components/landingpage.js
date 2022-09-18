@@ -13,13 +13,13 @@ class Landing extends Component {
             />
 
             <div className="banner-text">
-              {/* <h1> Full Stack Developer </h1> */}
-              <h1> Frontend Developer </h1>
+              <h1> Software Engineer </h1>
+              {/* <h1> Frontend Developer </h1> */}
 
               <hr/>
 
               {/* <p> HTML/CSS | Bootstrap | Javascript | React | VueJS | Laravel | MySQL | MongoDB </p> */}
-              <p> HTML/CSS | Bootstrap | Tailwind | Javascript | React | VueJS  </p>
+              <p> HTML/CSS | Bootstrap | Zurb Foundation | Tailwind | Javascript | ReactJS | VueJS | Laravel | MySQL  </p>
               <div className="social-links">
                   { /* Linkedin */ }
                   {/* <a href="https://www.linkedin.com/in/solaiman-hossain-536ab9136/"  rel="noopener noreferrer" target="_blank">

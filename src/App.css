@@ -2,17 +2,22 @@
 /*html, body {*/
 /*  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);*/
 /*}*/
+
+@font-face{
+  font-family: "Helvetica";
+  src: url('./fonts/Helvetica.ttf');
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
 }
-
 .header-color{
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
 }
 .landing-grid{
   background: #833ab4;  /* fallback for old browsers */
@@ -78,7 +83,10 @@
   padding-top: '1em';
   text-align: 'justify';
 }
-
+.mdl-list__item-primary-content span{
+    display: flex;
+    align-items: center;
+}
 /* Contact Page */
 
 
@@ -313,4 +321,16 @@
     transform: translateY(-50%);
   }
 } */
+
+.projects-grid{
+  flex-wrap: wrap;
+}
+.card-content{
+  margin-bottom: 20px;
+}
+.title-img{
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
 
