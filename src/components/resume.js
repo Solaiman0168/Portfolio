@@ -25,7 +25,7 @@ class Resume extends Component {
               <h4 className='text-center' style={{color: 'grey'}}>Software Engineer</h4>
               <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
               {/* <p>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Frontend Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p> */}
-              <p className='text-center'>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Software Engineer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Zurb Foundation, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, PHP(LARAVEL Framwork) and ability to effectively design, maintain and manage enterprise level solutions.</p>
+              <p className='text-center'>I graduated with BSc in Computer Science, from Lincoln University, Malaysia. I am a Software Engineer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Zurb Foundation, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, PHP(LARAVEL Framework) and the ability to design, maintain and manage enterprise level solutions effectively.</p>
               <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
               <div className='text-center'>
                 <h5>Address</h5>
