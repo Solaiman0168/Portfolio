@@ -6,17 +6,6 @@ class Contact extends Component {
     return (
       <div className="contact-body">
           <Grid className="contact-grid">
-              {/* <Cell col={6}>
-                  <h4>Solaiman Hossain</h4>
-                  <img
-                      src="https://i.ibb.co/pvGRKC7/SOLAIMAN.jpg"
-                      alt="Solaiman"
-                      style={{ height: '200px', width: '200px' }}
-                    />
-                    <p className='contact-info'>
-                      Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Frontend Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.
-                    </p>
-              </Cell> */}
               <Cell col={6}>
 
                 <h4> Contact Me </h4>

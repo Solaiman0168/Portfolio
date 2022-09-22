@@ -21,10 +21,8 @@ class Resume extends Component {
               
 
               <h2 className='text-center'>Solaiman Hossain</h2>
-              {/* <h4 style={{color: 'grey'}}>Full Stack Developer</h4> */}
               <h4 className='text-center' style={{color: 'grey'}}>Software Engineer</h4>
               <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
-              {/* <p>Graduated from BSc in Computer Science, Lincoln University, Malaysia. I am a Frontend Developer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, jQuery UI, PHP, Laravel, MySQL, Apache, and other similar systems and ability to effectively design, maintain and manage enterprise level solutions.</p> */}
               <p className='text-center'>I graduated with BSc in Computer Science, from Lincoln University, Malaysia. I am a Software Engineer with profound knowledge of HTML/HTML5, CSS/CSS3, Bootstrap, Zurb Foundation, Tailwind, JavaScript, React JS, Vue JS, AJAX, jQuery, PHP(LARAVEL Framework) and the ability to design, maintain and manage enterprise level solutions effectively.</p>
               <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
               <div className='text-center'>
@@ -71,7 +69,6 @@ class Resume extends Component {
 
                   <Experience
                       
-                      // jobName="Full Stack Developer"
                       jobName="Software Engineer"
                       companyName="Combosoft Ltd"
                       durationTime="March 2020 - Present"
@@ -80,13 +77,7 @@ class Resume extends Component {
                       projects="Projects:"
                       projectsDescription="Warehouse Management System (Running), Warehouse Management System Website demo, eBay Templates, Email Templates."
                       dutiesResponsibilities="Duties/Responsibilities:"
-                    //   jobDescription="
-                    // 1. Design implement web applications, prototypes, user interfaces
-                    // 2. Engage in problem definition solution implementation according to client needs
-                    // 3. Maintain and support existing system and realize it is just as important challenging as building new apps
-                    // 4. Analyze clients need to develop the appropriate functionality, while not overbuilding - Translate
-                    //  Specifications from analysts graphic designers into working applications
-                    // "
+
                     jobDescription="
                       1.	Frontend Design & Customization
                       2.	Backend
@@ -109,12 +100,6 @@ class Resume extends Component {
                     3. Backend "
                     />
 
-                    {/* <Experience
-                        durationTime="May 2017 - July 2017"
-                      jobName="Software Developer Intern"
-                      companyName="Zinios Sdn Bhd (Malaysia)"
-                      jobDescription="4 Months of Internship "
-                      /> */}
                     <hr style={{borderTop: '3px solid #e22947'}} />
 
 
@@ -160,10 +145,6 @@ class Resume extends Component {
                               skill="Ajax"
                               progress={90}
                               />
-                                {/* <Skills
-                                  skill="PHP"
-                                  progress={90}
-                                  /> */}
                                   <Skills
                                       skill="Laravel"
                                       progress={90}
@@ -172,10 +153,7 @@ class Resume extends Component {
                                     skill="MySQL"
                                     progress={90}
                                     />
-                                    {/* <Skills
-                                      skill="MongoDB"
-                                      progress={80}
-                                      /> */}
+                                    
 
               </Cell>
         </Grid>

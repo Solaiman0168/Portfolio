@@ -110,26 +110,6 @@ toggleCategories () {
 
          <div className="projects-grid">
 
-            {/* Project 1 */}
-            {/* <Card shadow={5} className="card-content">
-              <CardTitle className='title-img' style={{color: 'white', height: '180px', width: '350px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png)' }}>React Project #1</CardTitle>
-
-              <CardText>
-                  Personal reactjs portfolio in Github
-              </CardText>
-
-              <CardActions border style={{padding: '20px',}}>
-                  <a className="projects-dec" href="https://github.com/Solaiman0168/Portfolio"  rel="noopener noreferrer" target="_blank">
-                      Github
-                  </a>
-              </CardActions>
-
-              <CardMenu style={{color: '#fff'}}>
-                  <IconButton name="share" />
-              </CardMenu>
-
-            </Card> */}
-
             {/* Project 2 */}
             <Card shadow={5} className="card-content">
               <CardTitle  className='title-img' style={{color: 'white', height: '180px', width: '350px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png)' }}>Project #1</CardTitle>
@@ -208,26 +188,6 @@ toggleCategories () {
            </CardMenu>
 
          </Card>
-         {/* Project 2 */}
-         {/* <Card shadow={5}  className="card-content">
-           <CardTitle style={{color: 'white', height: '180px', width: '350px', background: 'url(https://www.freepngimg.com/thumb/php/4-2-php-logo-transparent.png) center / cover' }}>Project #2</CardTitle>
-
-           <CardText>
-             Mullick and brother's is a book seller big E-commerce website.
-               Technical environment: HTML, CSS, Bootstrap, PHP and MySQL
-           </CardText>
-
-           <CardActions border style={{padding: '20px'}}>
-               <a className="projects-dec" href="https://mullickandbrothers.com/"  rel="noopener noreferrer" target="_blank">
-                  Live
-               </a>
-           </CardActions>
-
-           <CardMenu style={{color: 'black'}}>
-               <IconButton name="share" />
-           </CardMenu>
-
-         </Card> */}
 
        </div>
     )
